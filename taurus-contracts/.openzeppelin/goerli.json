@@ -1,0 +1,270 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0xF7384F44C8B271839342A48a5F281aA691aAC55B",
+      "txHash": "0x7bc8f4cb190c5be40a7c9765d91507fd77de323907069650373480d6c49e6fa4",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "55d475b5ed7d4b2989d93b14c5146b4b42e3ac6bda982e0d0d310fa34adcc609": {
+      "address": "0xb5c592c549E0bF913966845D04F7E05282396D0C",
+      "txHash": "0x46e50f5873bdb27eb5871709dac2d35cf499a74666aee77216ec0495c5d10cd4",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "controller",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "ControllableUpgradeable",
+            "src": "contracts\\Controller\\ControllableUpgradeable.sol:17"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "ControllableUpgradeable",
+            "src": "contracts\\Controller\\ControllableUpgradeable.sol:53"
+          },
+          {
+            "label": "feeMapping",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_mapping(t_bytes32,t_uint256)",
+            "contract": "FeeMapping",
+            "src": "contracts\\Vault\\FeeMapping.sol:12"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "FeeMapping",
+            "src": "contracts\\Vault\\FeeMapping.sol:30"
+          },
+          {
+            "label": "cumulativeTauRewardPerCollateral",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_uint256",
+            "contract": "TauDripFeed",
+            "src": "contracts\\Vault\\TauDripFeed.sol:14"
+          },
+          {
+            "label": "tauWithheld",
+            "offset": 0,
+            "slot": "202",
+            "type": "t_uint256",
+            "contract": "TauDripFeed",
+            "src": "contracts\\Vault\\TauDripFeed.sol:17"
+          },
+          {
+            "label": "tokensLastDisbursedTimestamp",
+            "offset": 0,
+            "slot": "203",
+            "type": "t_uint256",
+            "contract": "TauDripFeed",
+            "src": "contracts\\Vault\\TauDripFeed.sol:21"
+          },
+          {
+            "label": "tau",
+            "offset": 0,
+            "slot": "204",
+            "type": "t_address",
+            "contract": "TauDripFeed",
+            "src": "contracts\\Vault\\TauDripFeed.sol:27"
+          },
+          {
+            "label": "collateralToken",
+            "offset": 0,
+            "slot": "205",
+            "type": "t_address",
+            "contract": "TauDripFeed",
+            "src": "contracts\\Vault\\TauDripFeed.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "206",
+            "type": "t_array(t_uint256)45_storage",
+            "contract": "TauDripFeed",
+            "src": "contracts\\Vault\\TauDripFeed.sol:112"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "SwapHandler",
+            "src": "contracts\\Vault\\SwapHandler.sol:103"
+          },
+          {
+            "label": "userDetails",
+            "offset": 0,
+            "slot": "301",
+            "type": "t_mapping(t_address,t_struct(UserDetails)9767_storage)",
+            "contract": "BaseVault",
+            "src": "contracts\\Vault\\BaseVault.sol:45"
+          },
+          {
+            "label": "userAddresses",
+            "offset": 0,
+            "slot": "302",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "BaseVault",
+            "src": "contracts\\Vault\\BaseVault.sol:48"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "303",
+            "type": "t_array(t_uint256)48_storage",
+            "contract": "BaseVault",
+            "src": "contracts\\Vault\\BaseVault.sol:451"
+          },
+          {
+            "label": "rewardRouter",
+            "offset": 0,
+            "slot": "351",
+            "type": "t_address",
+            "contract": "GmxYieldAdapter",
+            "src": "contracts\\Vault\\YieldAdapters\\GMX\\GmxYieldAdapter.sol:9"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "352",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "GmxYieldAdapter",
+            "src": "contracts\\Vault\\YieldAdapters\\GMX\\GmxYieldAdapter.sol:41"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]",
+            "numberOfBytes": "1440"
+          },
+          "t_array(t_uint256)48_storage": {
+            "label": "uint256[48]",
+            "numberOfBytes": "1536"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(UserDetails)9767_storage)": {
+            "label": "mapping(address => struct BaseVault.UserDetails)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(UserDetails)9767_storage": {
+            "label": "struct BaseVault.UserDetails",
+            "members": [
+              {
+                "label": "collateral",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "debt",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "lastUpdatedRewardPerCollateral",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "startTimestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
