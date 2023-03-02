@@ -110,4 +110,4 @@ A: [ACCEPTABLE/NOT ACCEPTABLE]
 
 
 
-# About {project}
+# About [project name]
