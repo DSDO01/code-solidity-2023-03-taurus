@@ -33,4 +33,40 @@ Example:
 
 # Audit scope
 
+
+[taurus-contracts @ 3759a646f5738890198eb7ae3964e4ecbe952d17](https://github.com/protokol/taurus-contracts/tree/3759a646f5738890198eb7ae3964e4ecbe952d17)
+- [taurus-contracts/contracts/Controller/Controllable.sol](taurus-contracts/contracts/Controller/Controllable.sol)
+- [taurus-contracts/contracts/Controller/ControllableUpgradeable.sol](taurus-contracts/contracts/Controller/ControllableUpgradeable.sol)
+- [taurus-contracts/contracts/Controller/Controller.sol](taurus-contracts/contracts/Controller/Controller.sol)
+- [taurus-contracts/contracts/Controller/SwapAdapterRegistry.sol](taurus-contracts/contracts/Controller/SwapAdapterRegistry.sol)
+- [taurus-contracts/contracts/Libs/Constants.sol](taurus-contracts/contracts/Libs/Constants.sol)
+- [taurus-contracts/contracts/Libs/ParseBytes.sol](taurus-contracts/contracts/Libs/ParseBytes.sol)
+- [taurus-contracts/contracts/Libs/TauMath.sol](taurus-contracts/contracts/Libs/TauMath.sol)
+- [taurus-contracts/contracts/LiquidationBot/LiquidationBot.sol](taurus-contracts/contracts/LiquidationBot/LiquidationBot.sol)
+- [taurus-contracts/contracts/Mocks/MockERC20.sol](taurus-contracts/contracts/Mocks/MockERC20.sol)
+- [taurus-contracts/contracts/Mocks/MockRewardRouter.sol](taurus-contracts/contracts/Mocks/MockRewardRouter.sol)
+- [taurus-contracts/contracts/Mocks/MockVault.sol](taurus-contracts/contracts/Mocks/MockVault.sol)
+- [taurus-contracts/contracts/Oracle/CustomPriceOracle/CustomPriceOracle.sol](taurus-contracts/contracts/Oracle/CustomPriceOracle/CustomPriceOracle.sol)
+- [taurus-contracts/contracts/Oracle/CustomPriceOracle/GLPPriceOracle.sol](taurus-contracts/contracts/Oracle/CustomPriceOracle/GLPPriceOracle.sol)
+- [taurus-contracts/contracts/Oracle/OracleInterface/IGLPManager.sol](taurus-contracts/contracts/Oracle/OracleInterface/IGLPManager.sol)
+- [taurus-contracts/contracts/Oracle/OracleInterface/IOracleWrapper.sol](taurus-contracts/contracts/Oracle/OracleInterface/IOracleWrapper.sol)
+- [taurus-contracts/contracts/Oracle/OracleInterface/IPriceOracle.sol](taurus-contracts/contracts/Oracle/OracleInterface/IPriceOracle.sol)
+- [taurus-contracts/contracts/Oracle/OracleInterface/IPriceOracleManager.sol](taurus-contracts/contracts/Oracle/OracleInterface/IPriceOracleManager.sol)
+- [taurus-contracts/contracts/Oracle/PriceOracleManager.sol](taurus-contracts/contracts/Oracle/PriceOracleManager.sol)
+- [taurus-contracts/contracts/Oracle/Wrapper/CustomOracleWrapper.sol](taurus-contracts/contracts/Oracle/Wrapper/CustomOracleWrapper.sol)
+- [taurus-contracts/contracts/SwapAdapters/BaseSwapAdapter.sol](taurus-contracts/contracts/SwapAdapters/BaseSwapAdapter.sol)
+- [taurus-contracts/contracts/SwapAdapters/ISwapRouter02.sol](taurus-contracts/contracts/SwapAdapters/ISwapRouter02.sol)
+- [taurus-contracts/contracts/SwapAdapters/UniswapSwapAdapter.sol](taurus-contracts/contracts/SwapAdapters/UniswapSwapAdapter.sol)
+- [taurus-contracts/contracts/TAU.sol](taurus-contracts/contracts/TAU.sol)
+- [taurus-contracts/contracts/TGT.sol](taurus-contracts/contracts/TGT.sol)
+- [taurus-contracts/contracts/Tokenomics/FeeSplitter.sol](taurus-contracts/contracts/Tokenomics/FeeSplitter.sol)
+- [taurus-contracts/contracts/Vault/BaseVault.sol](taurus-contracts/contracts/Vault/BaseVault.sol)
+- [taurus-contracts/contracts/Vault/FeeMapping.sol](taurus-contracts/contracts/Vault/FeeMapping.sol)
+- [taurus-contracts/contracts/Vault/SwapHandler.sol](taurus-contracts/contracts/Vault/SwapHandler.sol)
+- [taurus-contracts/contracts/Vault/TauDripFeed.sol](taurus-contracts/contracts/Vault/TauDripFeed.sol)
+- [taurus-contracts/contracts/Vault/YieldAdapters/GMX/GmxYieldAdapter.sol](taurus-contracts/contracts/Vault/YieldAdapters/GMX/GmxYieldAdapter.sol)
+- [taurus-contracts/contracts/Vault/YieldAdapters/GMX/IRewardRouter.sol](taurus-contracts/contracts/Vault/YieldAdapters/GMX/IRewardRouter.sol)
+
+
+
 # About {project}
