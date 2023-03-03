@@ -37,7 +37,7 @@ In order from most to least authority:
 - Set protocol fees, up to 40%. This determines the amount of yield earned by user collateral which will be used to pay off user loans vs. redirected into the protocol itself.
 - Direct protocol fees. Fees may be used to incentivize liquidity provision, claimed directly by the multisig, or otherwise used however the multisig decides.
 - Pause vaults. Users can exit paused vaults, but otherwise no significant action should be possible on them.
-3. Keepers. These are trusted with vault yield but not user collateral. They generally perform upkeep on the vault such as swapping yield for Tau and running the LiquidationBot. These are capable of stealing vault yield, but should not be able to steal user collateral.
+3. Keepers. These are trusted with vault yield but not user collateral. They generally perform upkeep on the vault such as swapping yield for Tau and running the LiquidationBot.
 4. Liquidators. These are simply trusted to liquidate accounts. It is intended that this role will eventually be deprecated and any account allowed to liquidate.
 
 ___
