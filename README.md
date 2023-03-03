@@ -7,7 +7,8 @@
 
 # Resources
 
-Resources will be posted in the Taurus contest channel in the Sherlock discord.
+[Taurus Protocol Documentation](https://arkenterprisecom-my.sharepoint.com/:w:/g/personal/harish_protokol_com/EUG1sOVbgitBmK46M-1r4TQBiOh_Kax3voempDIu9fIVfQ?e=gcLMt8)
+
 
 # On-chain context
  
@@ -102,3 +103,4 @@ A: ACCEPTABLE. Gmx certainly has the power to do so.
 # About Taurus
 
 Taurus is a self-repaying loan protocol built to be compatible with any yield-bearing token. The first collateral token will be GLP due to its high yields and stable nature. Users can use Taurus to leverage their GLP investment or gain liquidity while maintaining their GLP position.
+
