@@ -7,7 +7,7 @@
 
 # Resources
 
-[Taurus Protocol Documentation](https://arkenterprisecom-my.sharepoint.com/:w:/g/personal/harish_protokol_com/EUG1sOVbgitBmK46M-1r4TQBiOh_Kax3voempDIu9fIVfQ?e=gcLMt8)
+[Taurus Protocol Documentation](https://docs.taurus.loans/)
 
 
 # On-chain context
